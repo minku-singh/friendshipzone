@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendship Zone</title>
+</head>
+<body>
+    <!-- cover image and heading  -->
+    <header>
+        <img src="./QP-files/Friends.PNG" alt="Friends image">
+        <h1>FRIENDSHIP ZONE</h1>
+    </header>
+
+    <section>
+        <h2>Add your details to register</h2>
+        <form action="./RegistrationConfirmation.html">
+            <label for="name">Name: </label>
+            <input type="text" id="name" min="3" required><br>
+
+            <label for="age">Age: </label>
+            <input type="number" id="age" min="18" required><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" required><br>
+
+            <label for="birth">Birth Day: </label>
+            <input type="date" id="birth" required><br>
+
+            Gender: <input type="radio" name="gender">M
+            <input type="radio" name="gender">F <br>
+
+            About: <textarea name="about" id="about" cols="30" rows="10"></textarea><br>
+            Phone: <input type="tel"><br>
+
+            Interested In: <input type="radio" name="interest">friendship
+            <input type="radio" name="interest">dating <br>
+            Attachment <input type="file"><br>
+
+            <input type="submit" value="Register">
+            <input type="submit" value="Register as Admin">
+        </form>
+    </section>
+
+    <!-- follow us and copyright -->
+    <footer>
+        <h3>Follow us </h3>
+        <ul>
+            <li> <a href="#">Facebook</a> </li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+        &copy; all rights reserved.
+    </footer>
+</body>
+</html>
